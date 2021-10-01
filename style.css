@@ -26,9 +26,21 @@
     font-weight: 400;
 }
 
+.third-button {
+    background-color: hsl(322, 100%, 66%);
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.card {
+    color: hsl(192, 100%, 9%);
+}
 
 .footer {
     color: #fff;
+    margin-top: 200px;
     background-color: hsl(192, 100%, 9%);
     
 }
