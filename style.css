@@ -38,7 +38,6 @@
     color: hsl(192, 100%, 9%);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
     border-radius: 8px;
-    width: fit-content;
 }
 
 .footer {
