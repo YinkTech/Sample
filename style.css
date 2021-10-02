@@ -38,6 +38,7 @@
     color: hsl(192, 100%, 9%);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px;
     border-radius: 8px;
+    width: fit-content;
 }
 
 .footer {
@@ -47,13 +48,33 @@
     
 }
 
+.footer-content {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    display: grid;
+    font-size: 25px;
+    grid-template-columns: auto;
+}
 
-@media screen and (min-width: 1024px) {
+.first-footer-col {
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+@media screen and (min-width: 480px) {
+    .footer-content {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 740px) {
     .hearder {
         background-image: url(images/bg-hero-desktop.svg);
     }
 
-}
-@media screen and (min-width: 768px) {
+    .footer-content {
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 30px;
+    }
 
 }
