@@ -7,19 +7,29 @@
     background-size: cover;
 }
 
+.nav-logo {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
 
+.logo-img {
+    width: 150px;
+}
+
+.logo-btn {
+    justify-self: end;
+}
 
 .btn {
     border-radius: 20px;
-    width: 150px;
+    width: 100px;
     color: hsl(208, 11%, 55%);
     background-color: #fff;
 }
 
-.nav-logo {
-    padding: 70px;
-    
-}
+
 .second-button {
     background-color: hsl(322, 100%, 66%);
     font-size: 12px;
@@ -50,7 +60,7 @@
 
 .footer-content {
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -58,9 +68,6 @@
 .first-footer-col {
     display: grid;
     grid-template-columns: 30px auto;
-}
-
- }
 }
 
 @media screen and (min-width: 740px) {
@@ -71,5 +78,16 @@
 
 @media screen and (min-width: 992px) {
     .footer-logo-img {
-        margin-left: 150px;
-   
+        margin-left: 120px;
+        margin-bottom: 40px;
+    }
+
+    .nav-logo {
+        padding: 70px;
+        
+    }
+    
+    .logo-img {
+        width: 160px;
+    }
+}
