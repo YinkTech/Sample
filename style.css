@@ -49,32 +49,27 @@
 }
 
 .footer-content {
-    font-family: 'Courier New', Courier, monospace;
-    letter-spacing: 2px;
-    display: grid;
-    font-size: 25px;
-    grid-template-columns: auto;
+    letter-spacing: 3px;
+    font-size: 20px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .first-footer-col {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 30px auto;
 }
 
-@media screen and (min-width: 480px) {
-    .footer-content {
-        grid-template-columns: auto auto;
-    }
+ }
 }
 
 @media screen and (min-width: 740px) {
     .hearder {
         background-image: url(images/bg-hero-desktop.svg);
     }
-
-    .footer-content {
-        grid-template-columns: auto auto auto auto;
-        grid-gap: 30px;
-    }
-
 }
+
+@media screen and (min-width: 992px) {
+    .footer-logo-img {
+        margin-left: 150px;
+   
